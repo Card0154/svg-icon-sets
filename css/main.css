@@ -1,3 +1,30 @@
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+}
+
+h1, h2, p, a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.icon {
+  color: #fff;
+}
+
+.btn-ghost {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #ff9500;
 }
